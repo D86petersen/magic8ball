@@ -39,12 +39,8 @@ body {
     margin-top: 250px;
     
 }
-#answers {
-    font-size:2rem;
-    margin-left: 10px;
-}
 .div3 { 
-    margin-top:425px;
+    margin-top:325px;
     margin-left: 25px;
 }
 .div4 { 
@@ -93,16 +89,16 @@ p {
   /* also need keyframes and -moz-keyframes */
   @-webkit-keyframes shake {
     8%, 41% {
-        -webkit-transform: translateX(-10px);
+        -webkit-transform: translateX(-20px);
     }
     25%, 58% {
-        -webkit-transform: translateX(10px);
+        -webkit-transform: translateX(20px);
     }
     75% {
-        -webkit-transform: translateX(-5px);
+        -webkit-transform: translateX(-15px);
     }
     92% {
-        -webkit-transform: translateX(5px);
+        -webkit-transform: translateX(15px);
     }
     0%, 100% {
         -webkit-transform: translateX(0);
