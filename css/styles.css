@@ -29,23 +29,21 @@ body {
     margin-left: 10px;
     font-size: 2rem;
 }
-.div1 { 
+.imgcontainer { 
     position: absolute;
     margin-right: 275px;
     margin-bottom: 400px;
 }
-.div2 { 
-    position: absolute;
-    margin-top: 250px;
-    
-}
-.div3 { 
+
+.questioncontainer { 
     margin-top:325px;
     margin-left: 25px;
 }
-.div4 { 
-    position:absolute;
-margin-top: 600px;
+#questioncontainer { 
+    text-align: center;
+}
+button{
+    padding: 10px;
 }
 img {
     height: 300px;
@@ -104,7 +102,4 @@ p {
         -webkit-transform: translateX(0);
     }
   }
-  .pic {
-      width: 300px;
-      height: 300px;
-  }
+  

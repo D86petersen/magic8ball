@@ -15,19 +15,27 @@
     <div class="header">
   <h1>Magic 8 Ball</h1>
 </div>
-<div class="div1">
-  <img src="/img/magic8ball_start.png" alt="" class="animate" id="eightball">
+<div class="imgcontainer" id="answers">
+  <img src="/img/magic8ball_start.png" alt="" id="eightball">
 </div>
 
-<div class="div3" id="div3">
+<div class="questioncontainer" id="questioncontainer">
+  <form name="form1" id="form1">
 <label id="label">Ask Me Anything!</label>
 <br>
 <input type="input" id="userinput" placeholder="Enter your question here">
+<div>
+<input type="button" value="Ask" class="btn" id="btn">
 </div>
-<div class="div4">
-<input type="button" value="Ask" class="btn" id="btn" onclick="anime()" >
+  </form> 
+
+<div id="question">
+  <p id="questiontext"></p>
+  <button id="askagain">Ask again!</button>
+</div>
 
 </div>
+
 </div>
 
 </body>
