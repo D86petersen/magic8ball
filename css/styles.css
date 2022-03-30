@@ -1,83 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    background-image: linear-gradient(to right, red, yellow);
 }
-body {
-    background-image: linear-gradient(to right, crimson,orange, red);
-    padding: 10px;
+#container{
+    box-shadow: 10px 10px 5px;
 }
-.main-wrapper {
-    display: flex;
-    border: solid black 3px;
-    border-radius: 15px;
-    box-shadow: 5px 10px 5px darkslategrey;
-    margin-top: 50px;
-    margin-left: 600px;
-    width: 700px;
-    height: 700px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-.header {
-    position: absolute;
-    margin-top: -500px;
-}
-#label {
-    margin-left: 10px;
-    font-size: 2rem;
-}
-.imgcontainer { 
-    position: absolute;
-    margin-right: 275px;
-    margin-bottom: 400px;
-}
-
-.questioncontainer { 
-    margin-top:325px;
-    margin-left: 25px;
-}
-#questioncontainer { 
+#container h1{
     text-align: center;
-}
-button{
-    padding: 10px;
-}
-img {
-    height: 300px;
-    background-color: transparent;
-    position: absolute;
-}
-
-h1 {
-    text-shadow: 2px 1px white;
-    font-size: 3rem;
-}
-p {
-    margin-bottom: 25px;
-    text-shadow: 1px 1px white;
-    font-size: 2rem;
-}
-#response {
-    margin-top: 10px;
-    font-weight: bold;
-    width: 300px;
-    text-align: center;
-    
-}
-#userinput {
-    margin-top: 10px;
-    height: 40px;
-    width: 250px;
-    text-align: center;
-}
-#btn {
-    margin-top: 10px;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 1rem;
+    color: black;
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px 2px #ff0000;
 }
 .animate {
     outline-color: red;

@@ -9,7 +9,7 @@ const question = document.getElementById('question');
 const userInput = document.getElementById('userinput');
 // setting question display to default of none
 question.style.display = 'none';
-// assigning variable to an array of images
+// assigning a variable to an array of images
 let answers = [
   '/img/magic8ball_1.png',
   '/img/magic8ball_2.png',
@@ -67,8 +67,12 @@ document.querySelector('#btn').addEventListener('click', () => {
   answersInput.style.display = "none";
   question.style.display = "block";
 })
-// event listener for ask again button
+// created an event listener for ask again button to reset the page and display the form again 
 document.querySelector('#askagain').addEventListener('click', () => {
   answersInput.style.display = "block";
   question.style.display = "none";
+  // set focus to user input in order to reset the field value on page reset
+  document.getElementById("userinput").focus()
+  // resets the 8 ball image to the default image
+  document.getElementById("eightball").src="/img/magic8ball_start.png";
 });
