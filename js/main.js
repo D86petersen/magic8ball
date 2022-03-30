@@ -11,26 +11,26 @@ const userInput = document.getElementById('userinput');
 question.style.display = 'none';
 // assigning a variable to an array of images
 let answers = [
-  '/img/magic8ball_1.png',
-  '/img/magic8ball_2.png',
-  '/img/magic8ball_3.png',
-  '/img/magic8ball_4.png',
-  '/img/magic8ball_5.png',
-  '/img/magic8ball_6.png',
-  '/img/magic8ball_7.png',
-  '/img/magic8ball_8.png',
-  '/img/magic8ball_9.png',
-  '/img/magic8ball_10.png',
-  '/img/magic8ball_11.png',
-  '/img/magic8ball_12.png',
-  '/img/magic8ball_13.png',
-  '/img/magic8ball_14.png',
-  '/img/magic8ball_15.png',
-  '/img/magic8ball_16.png',
-  '/img/magic8ball_17.png',
-  '/img/magic8ball_18.png',
-  '/img/magic8ball_19.png',
-  '/img/magic8ball_20.png',
+  './img/magic8ball_1.png',
+  './img/magic8ball_2.png',
+  './img/magic8ball_3.png',
+  './img/magic8ball_4.png',
+  './img/magic8ball_5.png',
+  './img/magic8ball_6.png',
+  './img/magic8ball_7.png',
+  './img/magic8ball_8.png',
+  './img/magic8ball_9.png',
+  './img/magic8ball_10.png',
+  './img/magic8ball_11.png',
+  './img/magic8ball_12.png',
+  './img/magic8ball_13.png',
+  './img/magic8ball_14.png',
+  './img/magic8ball_15.png',
+  './img/magic8ball_16.png',
+  './img/magic8ball_17.png',
+  './img/magic8ball_18.png',
+  './img/magic8ball_19.png',
+  './img/magic8ball_20.png',
 ];
 
 // created a function to get a random number 
@@ -74,5 +74,5 @@ document.querySelector('#askagain').addEventListener('click', () => {
   // set focus to user input in order to reset the field value on page reset
   document.getElementById("userinput").focus()
   // resets the 8 ball image to the default image
-  document.getElementById("eightball").src="/img/magic8ball_start.png";
+  document.getElementById("eightball").src="./img/magic8ball_start.png";
 });
